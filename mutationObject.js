@@ -1,7 +1,7 @@
 const o = {
-  a :'a',
-  b : 'b',
-   obj : {
+  a   :'a',
+  b   : 'b',
+  obj : {
      key : 'key'
   }
 }
@@ -46,6 +46,7 @@ function deepCopy(obj) {
 const o3 = deepCopy(o)
 
  o.obj.key = 'new value'
-console.log(o3.obj.key)
-console.log(Object.keys(o3) )
+ console.log(o3.obj.key)
+ console.log(Object.keys(o3) )
+ console.log(o3)
 
